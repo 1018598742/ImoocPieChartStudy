@@ -58,6 +58,7 @@ public class PieFragment extends android.support.v4.app.Fragment {
         mChart.setHoleColor(Color.RED);
         mChart.setCenterText("饼状账单");
         mChart.setCenterTextSize(30);
+        //饼状账单表添加文字
         initView();
         return inflate;
     }
